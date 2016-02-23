@@ -13,7 +13,7 @@
 
 -(instancetype)init{
     self = [super init];
-    if (self) {
+    if (self) {//
         _pi = 0.0;
         _refreshing = false;
         self.backgroundColor = [UIColor clearColor];
